@@ -15,11 +15,11 @@ theme: /
         a: Пока пока
     
     state: Ivan
-        intent!: /Ваня
+        intent!: /ваня
         a: Золотой ты человек Иван 
 
     state: Alex
-        intent!: /Саша
+        intent!: /саша
         a: Золотой ты человек Александр 
         
     state: NoMatch
