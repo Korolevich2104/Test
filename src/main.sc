@@ -13,6 +13,13 @@ theme: /
     state: Bye
         intent!: /пока
         a: Пока пока
+        
+    state: marko
+        intent!: /марко
+        go!: /polo 
+    
+    state: polo
+        a: polo
     
     state: Ivan
         intent!: /ваня
