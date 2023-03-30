@@ -13,7 +13,15 @@ theme: /
     state: Bye
         intent!: /пока
         a: Пока пока
+    
+    state: Ivan
+        intent!: /Ваня
+        a: Золотой ты человек Иван 
 
+    state: Alex
+        intent!: /Саша
+        a: Золотой ты человек Александр 
+        
     state: NoMatch
         event!: noMatch
         a: Я не понял. Вы сказали: {{$request.query}}
