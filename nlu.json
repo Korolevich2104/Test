@@ -22,16 +22,6 @@
     }
   },
   "intents" : [ {
-    "path" : "/марко",
-    "enabled" : true,
-    "shared" : false,
-    "phrases" : [ ],
-    "classificationRules" : {
-      "refs" : [ ]
-    },
-    "patterns" : [ ],
-    "priority" : 0
-  }, {
     "path" : "/пока",
     "enabled" : true,
     "shared" : false,
@@ -52,18 +42,6 @@
     "classificationRules" : {
       "refs" : [ ]
     },
-    "priority" : 0
-  }, {
-    "path" : "/Ваня",
-    "enabled" : true,
-    "shared" : false,
-    "phrases" : [ {
-      "text" : "ваня"
-    } ],
-    "classificationRules" : {
-      "refs" : [ ]
-    },
-    "patterns" : [ ],
     "priority" : 0
   } ],
   "entities" : [ ],

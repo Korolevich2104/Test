@@ -15,19 +15,26 @@ theme: /
         a: Пока пока
         
     state: marko
-        intent!: /марко
+        q!: марко
         go!: /polo 
     
     state: polo
         a: polo
+        
     
     state: Ivan
-        intent!: /ваня
-        a: Золотой ты человек Иван 
-
-    state: Alex
-        intent!: /саша
-        a: Золотой ты человек Александр 
+        q!: Ваня
+        go!: /ivan_good 
+    
+    state: ivan_good
+        a: Ебать Ванек ты такой ахуенный    
+    
+    state: Ivan
+        q!: Саша
+        go!: /alex_good 
+    
+    state: alex_good
+        a: Долгих тебе лет епта СанёК!
         
     state: NoMatch
         event!: noMatch
