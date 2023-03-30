@@ -36,6 +36,14 @@ theme: /
     state: alex_good
         a: Долгих тебе лет епта СанёК!
         
+        
+    state: egor
+        q!: егор
+        go!: /egor_good 
+    
+    state: egor_good
+        a: бля ну епта удачи те по жизни Егорыч    
+        
     state: NoMatch
         event!: noMatch
         a: Я не понял. Вы сказали: {{$request.query}}
