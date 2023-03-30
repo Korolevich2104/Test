@@ -29,7 +29,7 @@ theme: /
     state: ivan_good
         a: Ебать Ванек ты такой ахуенный    
     
-    state: Ivan
+    state: alex
         q!: Саша
         go!: /alex_good 
     
